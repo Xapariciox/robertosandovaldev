@@ -219,7 +219,27 @@ export const Header = () => {
                                 className={`carousel-inner  ${style.carrousel}  `}
                             >
                                 <div
-                                    className={`carousel-item ${style.carouselItem} active  `}
+                                    className={`carousel-item ${style.carouselItem} active   `}
+                                    data-bs-interval="3000"
+                                >
+                                    <img
+                                        className={`d-block  img-fluid ${style.carouselImgIpad} `}
+                                        src="../../../assets/retro-gaming-ipad.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <div
+                                    className={`carousel-item ${style.carouselItem}   `}
+                                    data-bs-interval="3000"
+                                >
+                                    <img
+                                        className={`d-block  img-fluid ${style.carouselImgPhone} `}
+                                        src="../../../assets/retro-gaming-Phone.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <div
+                                    className={`carousel-item ${style.carouselItem}   `}
                                     data-bs-interval="3000"
                                 >
                                     <img
@@ -234,17 +254,7 @@ export const Header = () => {
                                 >
                                     <img
                                         className={`d-block  img-fluid ${style.carouselImgPhone} `}
-                                        src="../../../assets/meeseks-Phone-2.png"
-                                        alt=""
-                                    />
-                                </div>
-                                <div
-                                    className={`carousel-item ${style.carouselItem}   `}
-                                    data-bs-interval="3000"
-                                >
-                                    <img
-                                        className={`d-block  img-fluid ${style.carouselImgIpad} `}
-                                        src="../../../assets/meeseks-ipad.png"
+                                        src="../../../assets/meeseks-Phone.png"
                                         alt=""
                                     />
                                 </div>
@@ -290,6 +300,13 @@ export const Header = () => {
                                     type="button"
                                     data-bs-target="#slider"
                                     data-bs-slide-to="2"
+                                    className="active"
+                                    aria-current="true"
+                                ></button>
+                                <button
+                                    type="button"
+                                    data-bs-target="#slider"
+                                    data-bs-slide-to="3"
                                     className="active"
                                     aria-current="true"
                                 ></button>

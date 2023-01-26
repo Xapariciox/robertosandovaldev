@@ -26,9 +26,9 @@
 }
 .carouselImgPhone {
     min-height: 5rem !important;
-    height: 300px !important;
+    height: 350px !important;
     max-height: 350px;
 }
 .carouselImgIpad {
-    max-height: 300px;
+    max-height: 350px;
 }
