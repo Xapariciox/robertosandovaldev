@@ -1,0 +1,40 @@
+.containerTotalProjects {
+    min-height: 100vh;
+    background-color: rgb(41, 50, 65);
+    color: white;
+}
+.aboutTitle {
+    font-size: 2rem;
+    font-weight: 600;
+}
+.currentlyImg {
+    height: 400px;
+}
+.text {
+    font-size: 1.2rem;
+}
+.titleProject {
+    color: rgb(236, 121, 85);
+    font-size: 1.8rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-weight: bold;
+}
+.textGithub {
+    font-size: 1.9rem;
+    font-weight: 900;
+}
+@media (max-width: 600px) {
+    .currentlyImg {
+        height: 249px;
+    }
+    .titleProject {
+        font-size: 1.2rem;
+    }
+    .text {
+        font-size: 0.8rem;
+    }
+    .textGithub {
+        font-size: 1.5rem;
+    }
+}

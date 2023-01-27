@@ -1,3 +1,16 @@
+import { AboutMe } from '../aboutMe/aboutMe';
+import { Carousel } from '../carousel/carousel';
+import { Header } from '../header/header';
+import { Introduction } from '../introduction/introduction';
+import { Project } from '../projects/projects';
+
 export const App = () => {
-    return <h1>Lading page en progreso</h1>;
+    return (
+        <>
+            <Header></Header>
+            <Introduction></Introduction>
+            <AboutMe></AboutMe>
+            <Project></Project>
+        </>
+    );
 };

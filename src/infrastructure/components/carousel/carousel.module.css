@@ -1,0 +1,37 @@
+.carrousel {
+    display: flex;
+    justify-content: center;
+    width: 50% !important;
+    overflow: visible !important;
+    align-items: center !important;
+    max-height: 600px;
+    height: 400px;
+}
+.carouselItem {
+    width: auto !important;
+    margin-bottom: 2rem;
+}
+.carouselImgPhone {
+    min-height: 5rem !important;
+    height: 350px !important;
+    max-height: 350px;
+}
+.carouselImgIpad {
+    height: 200px;
+    max-height: 330px;
+}
+
+@media (max-width: 540px) {
+    .carrousel {
+        height: 400px;
+    }
+    .carouselItem {
+        margin-bottom: 1.5rem;
+    }
+    .carouselImgIpad {
+        height: 300px !important;
+    }
+    .carouselImgPhone {
+        height: 300px !important;
+    }
+}

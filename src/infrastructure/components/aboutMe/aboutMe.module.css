@@ -1,0 +1,57 @@
+.aboutImg {
+    width: 200px;
+}
+@media (min-width: 900px) {
+    .aboutImg {
+        width: 350px;
+        height: 400px;
+    }
+}
+
+.containerTotalA {
+    min-height: 100vh;
+}
+.aboutTitle {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.aboutTitle2 {
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.icons {
+    gap: 3px;
+    margin-left: 40px;
+}
+.marginTitle2 {
+    margin-left: 40px;
+}
+.text {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #c90d10;
+}
+.title2 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: rgb(85, 85, 238);
+}
+@media (max-width: 560px) {
+    .icons {
+        margin-left: 0px;
+    }
+    .aboutImg {
+        margin: 0 auto;
+    }
+    .title {
+        font-size: 1.2rem;
+    }
+    .title2 {
+        font-size: 1.2rem;
+    }
+}

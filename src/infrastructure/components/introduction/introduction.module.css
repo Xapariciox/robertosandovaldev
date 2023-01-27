@@ -1,0 +1,57 @@
+.containerTotalI {
+    min-height: 100vh;
+    background-color: rgb(41, 50, 65);
+}
+
+.nameIntroduction {
+    font-size: 7rem;
+    font-weight: bold;
+    color: white;
+    margin-left: 40px;
+}
+.imIntroduction {
+    font-size: 2rem;
+    color: rgb(152, 152, 231);
+    font-weight: bold;
+    margin-left: 40px;
+}
+.nameIntroductionSpan {
+    color: rgb(152, 152, 231);
+}
+.IntroductionRol {
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+    margin-left: 40px;
+}
+.IntroductionWho {
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 40px;
+    color: rgb(152, 152, 231);
+}
+
+@media (max-width: 600px) {
+    .nameIntroduction {
+        font-size: 5rem;
+        font-weight: bold;
+
+        margin-left: 10px;
+    }
+    .imIntroduction {
+        font-size: 1.3rem;
+
+        margin-left: 10px;
+    }
+
+    .IntroductionRol {
+        font-size: 2.5rem;
+        margin-left: 10px;
+    }
+    .IntroductionWho {
+        font-size: 1rem;
+
+        margin-left: 10px;
+    }
+}
