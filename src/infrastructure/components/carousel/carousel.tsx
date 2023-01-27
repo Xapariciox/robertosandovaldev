@@ -12,7 +12,7 @@ export const Carousel = () => {
                         <div className={`carousel-inner  ${style.carrousel}  `}>
                             <div
                                 className={`carousel-item ${style.carouselItem} active   `}
-                                data-bs-interval="2500"
+                                data-bs-interval="2300"
                             >
                                 <img
                                     className={`d-block  img-fluid ${style.carouselImgIpad} `}
@@ -22,7 +22,7 @@ export const Carousel = () => {
                             </div>
                             <div
                                 className={`carousel-item ${style.carouselItem}   `}
-                                data-bs-interval="2500"
+                                data-bs-interval="2300"
                             >
                                 <img
                                     className={`d-block  img-fluid ${style.carouselImgPhone} `}
@@ -32,7 +32,7 @@ export const Carousel = () => {
                             </div>
                             <div
                                 className={`carousel-item ${style.carouselItem}   `}
-                                data-bs-interval="2500"
+                                data-bs-interval="2300"
                             >
                                 <img
                                     className={`d-block  img-fluid ${style.carouselImgIpad} `}
@@ -42,7 +42,7 @@ export const Carousel = () => {
                             </div>
                             <div
                                 className={`carousel-item ${style.carouselItem}   `}
-                                data-bs-interval="2500"
+                                data-bs-interval="2300"
                             >
                                 <img
                                     className={`d-block  img-fluid ${style.carouselImgPhone} `}
@@ -51,28 +51,6 @@ export const Carousel = () => {
                                 />
                             </div>
                         </div>
-                        <button
-                            className="carousel-control-rev btn btn-primary"
-                            type="button"
-                            data-bs-target="#slider"
-                            data-bs-slide="prev"
-                        >
-                            <span
-                                className="carousel-control-prev-icon"
-                                aria-hidden="true"
-                            ></span>
-                        </button>
-                        <button
-                            className="carousel-control-rev btn btn-primary"
-                            type="button"
-                            data-bs-target="#slider"
-                            data-bs-slide="next"
-                        >
-                            <span
-                                className="carousel-control-next-icon"
-                                aria-hidden="true"
-                            ></span>
-                        </button>
                         <div className="carousel-indicators">
                             <button
                                 type="button"
@@ -103,6 +81,31 @@ export const Carousel = () => {
                                 aria-current="true"
                             ></button>
                         </div>
+                    </div>
+                    <div className="col-12 d-flex align-items-center justify-content-around">
+                        {' '}
+                        <button
+                            className="carousel-control-rev btn "
+                            type="button"
+                            data-bs-target="#slider"
+                            data-bs-slide="prev"
+                        >
+                            <span
+                                className="carousel-control-prev-icon"
+                                aria-hidden="true"
+                            ></span>
+                        </button>
+                        <button
+                            className="carousel-control-rev btn "
+                            type="button"
+                            data-bs-target="#slider"
+                            data-bs-slide="next"
+                        >
+                            <span
+                                className="carousel-control-next-icon"
+                                aria-hidden="true"
+                            ></span>
+                        </button>
                     </div>
                 </div>
             </div>

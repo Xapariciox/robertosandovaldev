@@ -9,7 +9,7 @@
 }
 .carouselItem {
     width: auto !important;
-    margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 .carouselImgPhone {
     min-height: 5rem !important;
@@ -17,5 +17,21 @@
     max-height: 350px;
 }
 .carouselImgIpad {
-    max-height: 350px;
+    height: 200px;
+    max-height: 330px;
+}
+
+@media (max-width: 540px) {
+    .carrousel {
+        height: 400px;
+    }
+    .carouselItem {
+        margin-bottom: 1.5rem;
+    }
+    .carouselImgIpad {
+        height: 300px !important;
+    }
+    .carouselImgPhone {
+        height: 300px !important;
+    }
 }
