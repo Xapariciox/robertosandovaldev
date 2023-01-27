@@ -2,6 +2,7 @@ import { AboutMe } from '../aboutMe/aboutMe';
 import { Carousel } from '../carousel/carousel';
 import { Header } from '../header/header';
 import { Introduction } from '../introduction/introduction';
+import { Project } from '../projects/projects';
 
 export const App = () => {
     return (
@@ -9,7 +10,7 @@ export const App = () => {
             <Header></Header>
             <Introduction></Introduction>
             <AboutMe></AboutMe>
-            <Carousel></Carousel>
+            <Project></Project>
         </>
     );
 };
