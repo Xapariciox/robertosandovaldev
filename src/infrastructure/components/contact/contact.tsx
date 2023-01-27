@@ -7,8 +7,9 @@ export const Contact = () => {
             {' '}
             <h2 className={`col my-5 ${style.letTalk}`}>Let's talk!</h2>
             <p className={` col text-center ${style.contactoParrafo}`}>
-                I’m always looking for new oportunities. Whether you want to say
-                hi or have a question. My inbox is always open.
+                I’m always looking for new <strong>oportunities.</strong>{' '}
+                Whether you want to say hi or have a question. My inbox is
+                always open.
             </p>
             <button
                 className={`btn btn-primary my-5 col-12 w-25 ${style.buttonContact}`}

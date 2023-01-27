@@ -26,7 +26,7 @@ export const Carousel = () => {
                             >
                                 <img
                                     className={`d-block  img-fluid ${style.carouselImgPhone} `}
-                                    src="../../../assets/retro-gaming-Phone.png"
+                                    src="../../../assets/meeseks-Phone-2.png"
                                     alt=""
                                 />
                             </div>
@@ -36,7 +36,7 @@ export const Carousel = () => {
                             >
                                 <img
                                     className={`d-block  img-fluid ${style.carouselImgPhone} `}
-                                    src="../../../assets/meeseks-Phone.png"
+                                    src="../../../assets/retro-gaming-phone.png"
                                     alt=""
                                 />
                             </div>
@@ -46,7 +46,7 @@ export const Carousel = () => {
                             >
                                 <img
                                     className={`d-block  img-fluid ${style.carouselImgPhone} `}
-                                    src="../../../assets/meeseks-Phone.png"
+                                    src="../../../assets/retro-gaming-phone2.png"
                                     alt=""
                                 />
                             </div>

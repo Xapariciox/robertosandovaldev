@@ -16,12 +16,12 @@ export const Project = () => {
                         <div className="d-flex justify-content-center mb-5">
                             <img
                                 className={` ${style.currentlyImg} me-2`}
-                                src="../../../assets/meeseks-Phone.png"
+                                src="../../../assets/retro-gaming-phone.png"
                                 alt=""
                             />
                             <img
                                 className={` ms-2 d-none d-md-block ${style.currentlyImg}`}
-                                src="../../../assets/meeseks-Phone.png"
+                                src="../../../assets/retro-gaming-phone3.png"
                                 alt=""
                             />
                         </div>
