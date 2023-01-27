@@ -211,7 +211,7 @@ export const Header = () => {
                 <div className="row slider">
                     <div className="col">
                         <div
-                            className="carousel slide wi"
+                            className="carousel slide carousel-fade"
                             data-bs-ride="carousel"
                             id="slider"
                         >
