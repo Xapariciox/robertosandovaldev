@@ -1,5 +1,5 @@
 import { AboutMe } from '../aboutMe/aboutMe';
-import { Carousel } from '../carousel/carousel';
+import { Contact } from '../contact/contact';
 import { Header } from '../header/header';
 import { Introduction } from '../introduction/introduction';
 import { Project } from '../projects/projects';
@@ -11,6 +11,7 @@ export const App = () => {
             <Introduction></Introduction>
             <AboutMe></AboutMe>
             <Project></Project>
+            <Contact></Contact>
         </>
     );
 };

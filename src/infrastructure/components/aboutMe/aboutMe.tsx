@@ -10,9 +10,11 @@ export const AboutMe = () => {
                 <div className="col-12 text-center mt-2">
                     <h2 className={`${style.aboutTitle}`}>About Me</h2>
                 </div>
-                <div className="col-12 col-sm-7">
+                <div className="col-12 col-sm-7 ">
                     {' '}
-                    <p className={` ${style.marginTitle2} ${style.text}`}>
+                    <p
+                        className={` text-start ${style.marginTitle2} ${style.text}`}
+                    >
                         I love to create new ways of solving problems, taking
                         advantage of my great performance when it comes to.
                     </p>

@@ -1,0 +1,17 @@
+.containerTotalContact {
+    min-height: 100vh;
+}
+.contactoParrafo {
+    font-size: 2.5rem;
+}
+.buttonContact {
+    font-size: 1.9rem;
+}
+.letTalk {
+    font-size: 3rem;
+    font-weight: 700;
+}
+.develomentFor {
+    font-size: 2rem;
+    color: blue;
+}
