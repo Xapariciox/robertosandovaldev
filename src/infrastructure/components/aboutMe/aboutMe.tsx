@@ -85,7 +85,7 @@ export const AboutMe = () => {
                         My stack
                     </h3>
                     <div
-                        className={`d-flex flex-wrap justify-content-center justify-content-md-start  ${style.icons} `}
+                        className={`d-flex flex-wrap justify-content-center justify-content-md-start mb-4 ${style.icons} `}
                     >
                         {techStack.map((stack) => {
                             return (

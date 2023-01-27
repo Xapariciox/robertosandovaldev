@@ -15,8 +15,8 @@ export const Carousel = () => {
                                 data-bs-interval="2300"
                             >
                                 <img
-                                    className={`d-block  img-fluid ${style.carouselImgIpad} `}
-                                    src="../../../assets/retro-gaming-ipad.png"
+                                    className={`d-block  img-fluid ${style.carouselImgPhone} `}
+                                    src="../../../assets/meeseks-Phone.png"
                                     alt=""
                                 />
                             </div>
@@ -35,8 +35,8 @@ export const Carousel = () => {
                                 data-bs-interval="2300"
                             >
                                 <img
-                                    className={`d-block  img-fluid ${style.carouselImgIpad} `}
-                                    src="../../../assets/meeseks-ipad.png"
+                                    className={`d-block  img-fluid ${style.carouselImgPhone} `}
+                                    src="../../../assets/meeseks-Phone.png"
                                     alt=""
                                 />
                             </div>
