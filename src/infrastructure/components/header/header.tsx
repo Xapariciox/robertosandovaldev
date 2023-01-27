@@ -79,8 +79,10 @@ export const Header = () => {
                         </div>
                     </a>
                     <a
-                        href="#"
+                        href="https://drive.google.com/file/d/1NLkgzG9H2jsZy-If_KI9F1yyq3zeCvzA/view?usp=sharing"
                         className="px-4 text-decoration-none d-flex align-items-center text-center"
+                        target="_blank"
+                        rel="noreferrer"
                     >
                         <div className="w-100">
                             <span>Resume</span>
@@ -112,7 +114,7 @@ export const Header = () => {
                         <ul className="dropdown-menu ">
                             <li className="mt-1">
                                 <a
-                                    href="GOOGLE.COM"
+                                    href="#aboutMe"
                                     className="px-4 text-decoration-none d-flex  text-center"
                                 >
                                     <div className="w-100 d-inline">
@@ -134,7 +136,7 @@ export const Header = () => {
                             </li>
                             <li className="mt-2">
                                 <a
-                                    href="#"
+                                    href="#projects"
                                     className="px-4 text-decoration-none d-flex align-items-center text-center"
                                 >
                                     <div className="w-100">
@@ -159,7 +161,7 @@ export const Header = () => {
                             <li className="mt-2">
                                 {' '}
                                 <a
-                                    href="#"
+                                    href="#contact"
                                     className="px-4 text-decoration-none d-flex align-items-center text-center"
                                 >
                                     <div className="w-100">
@@ -182,8 +184,10 @@ export const Header = () => {
                             </li>
                             <li className="mt-2">
                                 <a
-                                    href="#"
+                                    href="https://drive.google.com/file/d/1NLkgzG9H2jsZy-If_KI9F1yyq3zeCvzA/view?usp=sharing"
                                     className="px-4 text-decoration-none d-flex align-items-center text-center"
+                                    target="_blank"
+                                    rel="noreferrer"
                                 >
                                     <div className="w-100">
                                         <span>Resume</span>
