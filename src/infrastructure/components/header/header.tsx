@@ -16,7 +16,7 @@ export const Header = () => {
                     className={`menu col-auto d-flex align-items-stretch ${style.links} d-none d-md-flex`}
                 >
                     <a
-                        href="#"
+                        href="#aboutMe"
                         className="px-4 text-decoration-none d-flex align-items-center text-center"
                     >
                         <div className="w-100">
@@ -36,7 +36,7 @@ export const Header = () => {
                         </div>
                     </a>
                     <a
-                        href="#"
+                        href="#projects"
                         className="px-4 text-decoration-none d-flex align-items-center text-center"
                     >
                         <div className="w-100">
@@ -58,7 +58,7 @@ export const Header = () => {
                         </div>
                     </a>
                     <a
-                        href="#"
+                        href="#contact"
                         className="px-4 text-decoration-none d-flex align-items-center text-center"
                     >
                         <div className="w-100">
