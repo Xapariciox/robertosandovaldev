@@ -12,17 +12,16 @@ export const AboutMe = () => {
                 </div>
                 <div className="col-12 col-sm-7">
                     {' '}
-                    <p className={` ${style.marginTitle2}`}>
+                    <p className={` ${style.marginTitle2} ${style.text}`}>
                         I love to create new ways of solving problems, taking
-                        advantage of my great performance when it comes to
-                        keeping the code clean and scalable
+                        advantage of my great performance when it comes to.
                     </p>
-                    <p className={` ${style.marginTitle2}`}>
+                    <p className={` ${style.marginTitle2} ${style.text}`}>
                         With testing as my main strategy, I consider myself a
                         clean code advocate, with special attention to
                         maintainability and scalability.
                     </p>
-                    <p className={` ${style.marginTitle2}`}>
+                    <p className={` ${style.marginTitle2} ${style.text}`}>
                         always wanting to give the best of me both in the
                         professional and personal field.
                     </p>
@@ -41,8 +40,10 @@ export const AboutMe = () => {
                         <div
                             className={`d-flex flex-column justify-content-center ${style.marginTitle2}`}
                         >
-                            <p className={`  `}>Full-stack Web Developer</p>
-                            <p className={` `}>
+                            <p className={` ${style.title}`}>
+                                Full-stack Web Developer
+                            </p>
+                            <p className={` ${style.text}`}>
                                 ISDI Coders (2021 World's best coding bootcamp)
                             </p>
                         </div>
@@ -62,8 +63,10 @@ export const AboutMe = () => {
                         <div
                             className={`d-flex flex-column justify-content-center ${style.marginTitle2}`}
                         >
-                            <p className={` `}>Aepi</p>
-                            <p className={` `}>professional course python </p>
+                            <p className={` ${style.title}`}>Aepi</p>
+                            <p className={` ${style.text}`}>
+                                professional course python{' '}
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -76,8 +79,14 @@ export const AboutMe = () => {
                     />
                 </div>
                 <div className="col">
-                    <h3 className={` ${style.marginTitle2}`}>My stack</h3>
-                    <div className={`d-flex flex-wrap ${style.icons} `}>
+                    <h3
+                        className={` ${style.marginTitle2} ${style.title2} text-center text-md-start mt-2`}
+                    >
+                        My stack
+                    </h3>
+                    <div
+                        className={`d-flex flex-wrap justify-content-center justify-content-md-start  ${style.icons} `}
+                    >
                         {techStack.map((stack) => {
                             return (
                                 <img
