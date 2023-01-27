@@ -4,8 +4,25 @@
 @media (min-width: 900px) {
     .aboutImg {
         width: 350px;
+        height: 400px;
     }
 }
+
 .containerTotalA {
     min-height: 100vh;
+}
+.aboutTitle {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.aboutTitle2 {
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.icons {
+    gap: 3px;
+}
+.marginTitle2 {
+    margin-left: 40px;
 }
