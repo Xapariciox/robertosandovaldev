@@ -6,7 +6,7 @@ export const techStack: Array<string> = [
     'flux',
     'node',
     'mongo',
-    'next',
+    'expressjs',
     'jest',
     'git',
     'bootstrap',

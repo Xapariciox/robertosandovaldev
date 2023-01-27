@@ -6,3 +6,6 @@
         width: 350px;
     }
 }
+.containerTotalA {
+    min-height: 100vh;
+}

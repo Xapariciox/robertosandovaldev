@@ -3,7 +3,9 @@ import { techStack } from '../../../utils/utils';
 
 export const AboutMe = () => {
     return (
-        <div className="row align-items-center px_4 mb_5">
+        <div
+            className={`row align-items-center px_4 mb_5 ${style.containerTotalA}`}
+        >
             {' '}
             <div className="col-8">
                 <h2>About Me</h2>

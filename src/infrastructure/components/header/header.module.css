@@ -11,24 +11,3 @@
     margin-left: 15px;
     color: blue;
 }
-.carrousel {
-    display: flex;
-    justify-content: center;
-    width: 50% !important;
-    overflow: visible !important;
-    align-items: center !important;
-    max-height: 600px;
-    height: 400px;
-}
-.carouselItem {
-    width: auto !important;
-    margin-top: 3rem;
-}
-.carouselImgPhone {
-    min-height: 5rem !important;
-    height: 350px !important;
-    max-height: 350px;
-}
-.carouselImgIpad {
-    max-height: 350px;
-}
