@@ -1,7 +1,7 @@
 import style from './header.module.css';
 export const Header = () => {
     return (
-        <header className="container-fluid p-0">
+        <header id="header" className="container-fluid p-0">
             <div
                 className={`${style.headerNav} row nav g-0  justify-content-end justify-content-sm-between rounded-top  `}
             >
@@ -17,7 +17,7 @@ export const Header = () => {
                 >
                     <a
                         href="#aboutMe"
-                        className="px-4 text-decoration-none d-flex align-items-center text-center"
+                        className={`px-4 text-decoration-none d-flex align-items-center text-center ${style.linksHeader}`}
                     >
                         <div className="w-100">
                             <span>About</span>
@@ -37,7 +37,7 @@ export const Header = () => {
                     </a>
                     <a
                         href="#projects"
-                        className="px-4 text-decoration-none d-flex align-items-center text-center"
+                        className={`px-4 text-decoration-none d-flex align-items-center text-center ${style.linksHeader}`}
                     >
                         <div className="w-100">
                             {' '}
@@ -59,7 +59,7 @@ export const Header = () => {
                     </a>
                     <a
                         href="#contact"
-                        className="px-4 text-decoration-none d-flex align-items-center text-center"
+                        className={`px-4 text-decoration-none d-flex align-items-center text-center ${style.linksHeader}`}
                     >
                         <div className="w-100">
                             {' '}
@@ -80,7 +80,7 @@ export const Header = () => {
                     </a>
                     <a
                         href="https://drive.google.com/file/d/1NLkgzG9H2jsZy-If_KI9F1yyq3zeCvzA/view?usp=sharing"
-                        className="px-4 text-decoration-none d-flex align-items-center text-center"
+                        className={`px-4 text-decoration-none d-flex align-items-center text-center ${style.linksHeader}`}
                         target="_blank"
                         rel="noreferrer"
                     >
@@ -104,7 +104,9 @@ export const Header = () => {
                 <nav
                     className={`${style.burguer} menu col-auto d-flex align-items-stretch d-block d-md-none  `}
                 >
-                    <div className="px-4 text-decoration-none d-flex align-items-center text-center">
+                    <div
+                        className={`px-4 text-decoration-none d-flex align-items-center text-center ${style.linksHeader}`}
+                    >
                         <button
                             className="btn btn-primary btn-lg dropdown-toggle dropdown-lg-toggle"
                             type="button"
@@ -137,7 +139,7 @@ export const Header = () => {
                             <li className="mt-2">
                                 <a
                                     href="#projects"
-                                    className="px-4 text-decoration-none d-flex align-items-center text-center"
+                                    className={`px-4 text-decoration-none d-flex align-items-center text-center ${style.linksHeader}`}
                                 >
                                     <div className="w-100">
                                         {' '}
@@ -162,7 +164,7 @@ export const Header = () => {
                                 {' '}
                                 <a
                                     href="#contact"
-                                    className="px-4 text-decoration-none d-flex align-items-center text-center"
+                                    className={`px-4 text-decoration-none d-flex align-items-center text-center ${style.linksHeader}`}
                                 >
                                     <div className="w-100">
                                         {' '}
@@ -185,7 +187,7 @@ export const Header = () => {
                             <li className="mt-2">
                                 <a
                                     href="https://drive.google.com/file/d/1NLkgzG9H2jsZy-If_KI9F1yyq3zeCvzA/view?usp=sharing"
-                                    className="px-4 text-decoration-none d-flex align-items-center text-center"
+                                    className={`px-4 text-decoration-none d-flex align-items-center text-center ${style.linksHeader}`}
                                     target="_blank"
                                     rel="noreferrer"
                                 >
