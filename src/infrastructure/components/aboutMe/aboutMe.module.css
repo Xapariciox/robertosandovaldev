@@ -1,5 +1,6 @@
 .aboutImg {
-    width: 200px;
+    width: 300px;
+    height: 300px;
 }
 @media (min-width: 900px) {
     .aboutImg {

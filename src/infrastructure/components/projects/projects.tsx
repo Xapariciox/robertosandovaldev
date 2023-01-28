@@ -10,7 +10,7 @@ export const Project = () => {
                 >
                     <div className="row">
                         <h2
-                            className={` col text-center mt-4 ${style.aboutTitle}`}
+                            className={` col text-center my-4 ${style.aboutTitle}`}
                         >
                             Projects
                         </h2>
@@ -36,7 +36,7 @@ export const Project = () => {
                             <h2 className={` mb-3 ${style.titleProject}`}>
                                 Retro-gaming
                             </h2>
-                            <p className={`me-5  ${style.text}`}>
+                            <p className={`me-4  ${style.text}`}>
                                 An e-commerce based on data working with{' '}
                                 <strong>nodeJs</strong> via{' '}
                                 <strong>mongoDB</strong> connected with a{' '}
@@ -50,7 +50,7 @@ export const Project = () => {
                                 <strong>TDD</strong> principles for testing with
                                 which I achieve <strong>100% coverage.</strong>
                             </p>
-                            <div>
+                            <div className="my-4">
                                 <a
                                     className=""
                                     target="_blank"
@@ -59,8 +59,8 @@ export const Project = () => {
                                 >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
-                                        width="60"
-                                        height="60"
+                                        width="50"
+                                        height="50"
                                         fill="currentColor"
                                         className="bi bi-github me-2 "
                                         viewBox="0 0 16 16"
@@ -70,15 +70,15 @@ export const Project = () => {
                                 </a>
                                 <a
                                     href="https://retro-gaming-roberto-sandoval.netlify.app/"
-                                    className="text-decoration-none"
+                                    className="text-decoration-none "
                                     target="_blank"
                                     rel="noreferrer"
                                 >
                                     {' '}
                                     <img
                                         src="../../../assets/www.svg"
-                                        width={60}
-                                        height={60}
+                                        width={50}
+                                        height={50}
                                         alt=""
                                     />
                                 </a>

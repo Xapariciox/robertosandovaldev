@@ -1,5 +1,19 @@
 import style from './contact.module.css';
 export const Contact = () => {
+    window.onload = () => {
+        const buttonUp = document.getElementById('buttonUp');
+        if (buttonUp) {
+            onscroll = () => {
+                if (window.scrollY > 840) {
+                    buttonUp.style.display = 'block';
+                }
+                if (window.scrollY < 840) {
+                    buttonUp.style.display = 'none';
+                }
+            };
+        }
+    };
+
     return (
         <section id="contact">
             {' '}
@@ -8,14 +22,14 @@ export const Contact = () => {
             >
                 {' '}
                 <h2 className={`col my-5 ${style.letTalk}`}>Let's talk!</h2>
-                <p className={` col text-center ${style.contactoParrafo}`}>
+                <p className={` col text-center mx-2 ${style.contactoParrafo}`}>
                     I’m always looking for new <strong>oportunities.</strong>{' '}
                     Whether you want to say hi or have a question. My inbox is
                     always open.
                 </p>
                 <a
                     href="mailto:caracteres86@gmail.com"
-                    className={`btn btn-primary my-5 col-12 w-25 ${style.buttonContact}`}
+                    className={`btn btn-primary my-5 text-center p-2 col-12 w-25 ${style.buttonContact}`}
                 >
                     {' '}
                     Touch me
@@ -60,6 +74,18 @@ export const Contact = () => {
                         Roberto Sandoval.
                     </p>
                 </div>
+            </div>
+            <div id="buttonUp" className={` ${style.buttonUp}`}>
+                <a href="#header">
+                    {' '}
+                    <img
+                        width={45}
+                        height={45}
+                        src="../../../assets/up.svg"
+                        alt=""
+                        className={` ${style.buttonUpImg}`}
+                    />
+                </a>
             </div>
         </section>
     );
