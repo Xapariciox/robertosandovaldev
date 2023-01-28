@@ -24,7 +24,7 @@ export const Introduction = () => {
                     {' '}
                     <p className={`w-50  w-md-25 ${style.IntroductionWho}`}>
                         I'm a full stack web developer who loves to face
-                        challenges to reach a very optimal result and well done.
+                        challenges to reach a very optimal result.
                     </p>
                 </div>
             </div>
