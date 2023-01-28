@@ -17,8 +17,8 @@ export const AboutMe = () => {
                         <p
                             className={` text-start ${style.marginTitle2} ${style.text}`}
                         >
-                            I love to solve problems the most creative way given
-                            high performances.
+                            I love to solve problems the most creative way
+                            giving high performances results.
                         </p>
                         <p className={` ${style.marginTitle2} ${style.text}`}>
                             With testing as my main strategy, I consider myself
