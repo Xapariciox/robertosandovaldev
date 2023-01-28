@@ -5,7 +5,7 @@ export const Carousel = () => {
             <div className="row slider">
                 <div className="col">
                     <div
-                        className="carousel slide carousel-fade"
+                        className="carousel "
                         data-bs-ride="carousel"
                         id="slider"
                     >

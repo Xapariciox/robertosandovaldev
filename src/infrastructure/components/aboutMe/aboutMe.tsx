@@ -21,13 +21,13 @@ export const AboutMe = () => {
                             giving high performances results.
                         </p>
                         <p className={` ${style.marginTitle2} ${style.text}`}>
-                            With testing as my main strategy, I consider myself
-                            a clean code advocate, with special attention to
-                            maintainability and scalability.
+                            I consider myself a clean code advocate, focusing on
+                            maintainability and scalability, making testing my
+                            main strategy.
                         </p>
                         <p className={` ${style.marginTitle2} ${style.text}`}>
-                            always wanting to give the best of me both in the
-                            professional and personal field.
+                            Always giving the best of me both Professionaly in
+                            personaly.
                         </p>
                         <div
                             className={` d-flex flex-wrap align-items-center `}
@@ -75,7 +75,7 @@ export const AboutMe = () => {
                             >
                                 <p className={` ${style.title}`}>Aepi (2021)</p>
                                 <p className={` ${style.text}`}>
-                                    professional course python{' '}
+                                    Professional course python{' '}
                                 </p>
                             </div>
                         </div>

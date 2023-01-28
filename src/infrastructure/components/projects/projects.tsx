@@ -47,7 +47,7 @@ export const Project = () => {
                                 <strong>React</strong> working with{' '}
                                 <strong>redux</strong>, <strong>hooks</strong>,
                                 clean code, SOLID pattern and{' '}
-                                <strong>TDD</strong> principles for testing with
+                                <strong>TDD</strong> principles for testing
                                 which I achieve <strong>100% coverage.</strong>
                             </p>
                             <div className="my-4">
