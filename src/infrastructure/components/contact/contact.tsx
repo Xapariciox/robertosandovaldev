@@ -1,16 +1,14 @@
 import style from './contact.module.css';
 export const Contact = () => {
-    window.onload = () => {
+    onscroll = () => {
         const buttonUp = document.getElementById('buttonUp');
         if (buttonUp) {
-            onscroll = () => {
-                if (window.scrollY > 840) {
-                    buttonUp.style.display = 'block';
-                }
-                if (window.scrollY < 840) {
-                    buttonUp.style.display = 'none';
-                }
-            };
+            if (window.scrollY > 840) {
+                buttonUp.style.display = 'block';
+            }
+            if (window.scrollY < 840) {
+                buttonUp.style.display = 'none';
+            }
         }
     };
 
