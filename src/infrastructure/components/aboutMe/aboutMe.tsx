@@ -47,7 +47,7 @@ export const AboutMe = () => {
                                 className={`d-flex flex-column justify-content-center w-75 ${style.marginTitle2}`}
                             >
                                 <p className={` ${style.title} `}>
-                                    ISDI Coders (2022-2023)
+                                    ISDI Coders (2022)
                                 </p>
                                 <p className={` ${style.text}`}>
                                     {' '}
