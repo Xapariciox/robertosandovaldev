@@ -130,6 +130,7 @@ export const AboutMe = () => {
                                         width={70}
                                         alt={`${stack} logo`}
                                         src={`../../../assets/${stack}.svg`}
+                                        className={style.iconsImg}
                                     />
                                 );
                             })}
