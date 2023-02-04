@@ -75,7 +75,7 @@ export const Project = () => {
                                     </svg>
                                 </a>
                                 <a
-                                    href="https://retro-gaming-roberto-sandoval.netlify.app/"
+                                    href="https://retro-gaming-front.vercel.app//"
                                     className="text-decoration-none "
                                     target="_blank"
                                     rel="noreferrer"
