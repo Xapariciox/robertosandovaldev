@@ -42,6 +42,13 @@
     font-weight: bold;
     color: rgb(85, 85, 238);
 }
+.iconsImg {
+    transition: all 0.3s ease;
+}
+.iconsImg:hover {
+    transform: scale(1.05, 1.05);
+    cursor: pointer;
+}
 @media (max-width: 560px) {
     .icons {
         margin-left: 0px;
