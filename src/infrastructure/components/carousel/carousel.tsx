@@ -46,7 +46,7 @@ export const Carousel = () => {
                             >
                                 <img
                                     className={`d-block  img-fluid ${style.carouselImgPhone} `}
-                                    src="../../../assets/retro-gaming-phone2.png"
+                                    src="../../../assets/retro-gaming-phone3.png"
                                     alt=""
                                 />
                             </div>

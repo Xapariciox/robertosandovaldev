@@ -50,6 +50,12 @@ export const Project = () => {
                                 <strong>TDD</strong> principles for testing for
                                 which I achieve <strong>100% coverage.</strong>
                             </p>
+                            <p className={`me-4  ${style.text}`}>
+                                <strong>Responsive design</strong> and styles
+                                applied with <strong>bootstrap 5</strong>{' '}
+                                project controlled by <strong>Git</strong>{' '}
+                                version control.
+                            </p>
                             <div className="my-4">
                                 <a
                                     className=""
