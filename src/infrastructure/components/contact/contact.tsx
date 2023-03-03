@@ -16,7 +16,7 @@ export const Contact = () => {
         <section id="contact">
             {' '}
             <div
-                className={`container ${style.containerTotalContact} d-flex flex-column justify-content-between align-items-center `}
+                className={`container ${style.containerTotalContact} d-flex flex-column justify-content-between align-items-center animation-right `}
             >
                 {' '}
                 <h2 className={`col my-5 ${style.letTalk}`}>Let's talk!</h2>

@@ -4,7 +4,7 @@ export const Introduction = () => {
         <section id="introduction">
             {' '}
             <div
-                className={`container-fluid ${style.containerTotalI} w-100 d-flex align-items- flex-column justify-content-center`}
+                className={`container-fluid ${style.containerTotalI} w-100 d-flex align-items- flex-column justify-content-center right`}
             >
                 <div className="col-12">
                     <p className={style.imIntroduction}>Hi, I'm</p>
