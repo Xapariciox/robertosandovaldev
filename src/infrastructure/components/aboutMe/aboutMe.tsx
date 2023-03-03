@@ -5,7 +5,7 @@ export const AboutMe = () => {
     return (
         <section id="aboutMe">
             {' '}
-            <div className="container-fluid animation-right">
+            <div className="container-fluid right">
                 {' '}
                 <div className={`row  ${style.containerTotalA}`}>
                     {' '}

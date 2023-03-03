@@ -6,7 +6,7 @@ export const Project = () => {
             <section id="projects">
                 {' '}
                 <div
-                    className={`container-fluid animation-right ${style.containerTotalProjects}`}
+                    className={`container-fluid right ${style.containerTotalProjects}`}
                 >
                     <div className="row">
                         <h2

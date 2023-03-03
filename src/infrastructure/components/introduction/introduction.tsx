@@ -4,23 +4,23 @@ export const Introduction = () => {
         <section id="introduction">
             {' '}
             <div
-                className={`container-fluid ${style.containerTotalI} w-100 d-flex align-items- flex-column justify-content-center right`}
+                className={`container-fluid ${style.containerTotalI} w-100 d-flex align-items- flex-column justify-content-center `}
             >
                 <div className="col-12">
                     <p className={style.imIntroduction}>Hi, I'm</p>
                 </div>
 
-                <div className={`col-12 d-flex `}>
+                <div className={`col-12 d-flex right`}>
                     {' '}
                     <h1 className={style.nameIntroduction}>
                         Roberto Sandoval
                         <span className={style.nameIntroductionSpan}>.</span>
                     </h1>
                 </div>
-                <div className="col-12">
+                <div className="col-12 right">
                     <h2 className={style.IntroductionRol}> Web developer </h2>
                 </div>
-                <div className={`col-12  ${style.divIntroductionWho}`}>
+                <div className={`col-12 right  ${style.divIntroductionWho}`}>
                     {' '}
                     <p className={`w-50  w-md-25 ${style.IntroductionWho}`}>
                         I'm a full stack web developer who loves to face
