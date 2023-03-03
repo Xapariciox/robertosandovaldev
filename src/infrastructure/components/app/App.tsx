@@ -47,9 +47,9 @@ export const App = () => {
       function isInViewport(item: any) {
         
       
-        let bounding = item.getBoundingClientRect(),
-          myElementHeight = item.offsetHeight,
-          myElementWidth = item.offsetWidth;
+        const bounding = item.getBoundingClientRect()
+         const myElementHeight = item.offsetHeight
+         const myElementWidth = item.offsetWidth;
       
         if (bounding.top >= -myElementHeight
           && bounding.left >= -myElementWidth
