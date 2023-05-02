@@ -1,7 +1,7 @@
 import style from './carousel.module.css';
 export const Carousel = () => {
     return (
-        <div className={`container-fluid ${style.containerTotalC}`}>
+        <div className={`container-fluid ${style.containerTotalC} right`}>
             <div className="row slider">
                 <div className="col">
                     <div
