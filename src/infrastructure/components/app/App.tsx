@@ -14,54 +14,54 @@ export const App = () => {
     const itemOp = document.getElementsByClassName("appear");
     window.addEventListener('scroll', function () {
         for (let i = 0; i < itemLeft.length; i++) {
-          if (isInViewport(itemLeft[i])) {
+        if (isInViewport(itemLeft[i])) {
             itemLeft[i].classList.add('animation-left')
-          } else if (!isInViewport(itemLeft[i])) {
+        } else if (!isInViewport(itemLeft[i])) {
             itemLeft[i].classList.remove('animation-left')
-          }
+        }
         }
         for (let i = 0; i < itemRight.length; i++) {
-          if (isInViewport(itemRight[i])) {
+        if (isInViewport(itemRight[i])) {
             itemRight[i].classList.add('animation-right')
-          }
+        }
         }
         for (let i = 0; i < itemBottom.length; i++) {
-          if (isInViewport(itemBottom[i])) {
+        if (isInViewport(itemBottom[i])) {
             itemBottom[i].classList.add('animation-bottom')
-          }
+        }
         }
         for (let i = 0; i < itemTop.length; i++) {
-          if (isInViewport(itemTop[i])) {
+        if (isInViewport(itemTop[i])) {
             itemTop[i].classList.add('animation-top')
-          }
+        }
         }
         for (let i = 0; i < itemOp.length; i++) {
-          if (isInViewport(itemOp[i])) {
+        if (isInViewport(itemOp[i])) {
             itemOp[i].classList.add('animation-appear')
-          }
         }
-      });
-      // animaciones
+        }
+    });
+    // animaciones
       
-      // IS IN VIEWPORT
-      function isInViewport(item: any) {
+    // IS IN VIEWPORT
+    function isInViewport(item: any) {
         
       
         const bounding = item.getBoundingClientRect()
-         const myElementHeight = item.offsetHeight
-         const myElementWidth = item.offsetWidth;
+        const myElementHeight = item.offsetHeight
+        const myElementWidth = item.offsetWidth;
       
         if (bounding.top >= -myElementHeight
-          && bounding.left >= -myElementWidth
-          && bounding.right <= (window.innerWidth || document.documentElement.clientWidth) + myElementWidth
-          && bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight) + myElementHeight) {
-          return true;
+        && bounding.left >= -myElementWidth
+        && bounding.right <= (window.innerWidth || document.documentElement.clientWidth) + myElementWidth
+        && bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight) + myElementHeight) {
+        return true;
         } else {
-          return false;
+        return false;
         }
       
-      }
-      // animaciones
+    }
+    // animaciones
     
 
     return (
