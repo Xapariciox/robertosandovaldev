@@ -6,20 +6,20 @@ export const Project = () => {
             <section id="projects">
                 {' '}
                 <div
-                    className={`container-fluid right ${style.containerTotalProjects}`}
+                    className={`container-fluid  ${style.containerTotalProjects}`}
                 >
                     <div className="row">
                         <h2
-                            className={` col text-center my-4 ${style.aboutTitle}`}
+                            className={` col text-center my-4 ${style.aboutTitle} right`}
                         >
                             Projects
                         </h2>
                         <Carousel></Carousel>
-                        <h2 className={`text-center my-5 ${style.aboutTitle}`}>
+                        <h2 className={`text-center my-5 ${style.aboutTitle} right`}>
                             Curently working on
                         </h2>
                         <div className="col-6 ">
-                            <div className="d-flex justify-content-center mb-5">
+                            <div className="d-flex justify-content-center mb-5 right">
                                 <img
                                     className={` ${style.currentlyImg} me-2`}
                                     src="../../../assets/retro-gaming-phone.png"
@@ -32,7 +32,7 @@ export const Project = () => {
                                 />
                             </div>
                         </div>
-                        <div className="col-6">
+                        <div className="col-6 right">
                             <h2 className={` mb-3 ${style.titleProject}`}>
                                 Retro-gaming
                             </h2>
@@ -90,7 +90,7 @@ export const Project = () => {
                                 </a>
                             </div>
                         </div>{' '}
-                        <div className="col-12 d-flex flex-column justify-content-center align-items-center mb-4">
+                        <div className="col-12 d-flex flex-column justify-content-center align-items-center mb-4 right">
                             <p className={`  ${style.textGithub}`}>
                                 Looking for more?
                             </p>
