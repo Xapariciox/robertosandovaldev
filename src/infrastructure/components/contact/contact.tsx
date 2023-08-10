@@ -30,7 +30,7 @@ export const Contact = () => {
                     className={`btn btn-primary my-5 text-center p-2 col-12 w-25 ${style.buttonContact}`}
                 >
                     {' '}
-                    Touch me
+                    Mail
                 </a>
                 <div className="col d-flex flex-column justify-content-center align-items-center">
                     {' '}
