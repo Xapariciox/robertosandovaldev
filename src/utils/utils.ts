@@ -15,5 +15,6 @@ export const techStack: Array<string> = [
     'html5',
     'github',
     'sass',
-    "jquery"
+    "jquery",
+    "sql"
 ];
