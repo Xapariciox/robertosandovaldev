@@ -16,7 +16,7 @@ export const Header = () => {
                     className={`menu col-auto d-flex align-items-stretch ${style.links} d-none d-md-flex`}
                 >
                     <a
-                        href="https://drive.google.com/file/d/1NLkgzG9H2jsZy-If_KI9F1yyq3zeCvzA/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1AxdARxLLQtB62NVu1ibyon_od2bBhFGl/view?usp=sharing"
                         className={`px-4 text-decoration-none d-flex align-items-center text-center ${style.linksHeader}`}
                         target="_blank"
                         rel="noreferrer"
@@ -116,7 +116,7 @@ export const Header = () => {
                         <ul className="dropdown-menu ">
                             <li className="mt-1">
                                 <a
-                                    href="https://drive.google.com/file/d/1NLkgzG9H2jsZy-If_KI9F1yyq3zeCvzA/view?usp=sharing"
+                                    href="https://drive.google.com/file/d/1AxdARxLLQtB62NVu1ibyon_od2bBhFGl/view?usp=sharing"
                                     className={`px-4 text-decoration-none d-flex align-items-center text-center ${style.linksHeader}`}
                                     target="_blank"
                                     rel="noreferrer"
