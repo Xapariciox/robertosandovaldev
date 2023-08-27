@@ -126,8 +126,8 @@ export const AboutMe = () => {
                                 return (
                                     <img
                                         key={stack}
-                                        height={70}
-                                        width={70}
+                                        height={69}
+                                        width={69}
                                         alt={`${stack} logo`}
                                         src={`../../../assets/${stack}.svg`}
                                         className={style.iconsImg}
