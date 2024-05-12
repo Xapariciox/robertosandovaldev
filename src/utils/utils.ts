@@ -3,7 +3,6 @@ export const techStack: Array<string> = [
     'typescript',
     'react',
     'redux',
-    'flux',
     'node',
     'mongo',
     'expressjs',
@@ -13,8 +12,7 @@ export const techStack: Array<string> = [
     'figma',
     'css',
     'html5',
-    'github',
     'sass',
-    "jquery",
-    "sql"
+    'jquery',
+    'sql',
 ];
