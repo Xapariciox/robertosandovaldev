@@ -18,13 +18,18 @@ export const Introduction = () => {
                     </h1>
                 </div>
                 <div className="col-12 animation-right">
-                    <h2 className={style.IntroductionRol}> Web developer </h2>
+                    <h2 className={style.IntroductionRol}>
+                        {' '}
+                        Software Engineer.{' '}
+                    </h2>
                 </div>
-                <div className={`col-12 animation-right  ${style.divIntroductionWho}`}>
+                <div
+                    className={`col-12 animation-right  ${style.divIntroductionWho}`}
+                >
                     {' '}
                     <p className={`w-50  w-md-25 ${style.IntroductionWho}`}>
-                        I'm a full stack web developer who loves to face
-                        challenges to reach a very optimal result.
+                        I'm a Software Engineer who loves to face challenges to
+                        reach a very optimal result.
                     </p>
                 </div>
             </div>
